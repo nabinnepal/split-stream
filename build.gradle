@@ -27,5 +27,7 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	compile 'org.apache.kafka:kafka-streams:1.0.0'
+	compile 'org.apache.spark:spark-streaming-kafka-0-10_2.11:2.3.0'
+    compile 'org.apache.spark:spark-streaming_2.11:2.2.0'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

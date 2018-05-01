@@ -17,7 +17,7 @@ import static org.apache.kafka.streams.StreamsConfig.*;
 
 
 @Component
-public class StreamRunner implements CommandLineRunner {
+public class KafkaStreamRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         StreamsBuilder builder = new StreamsBuilder();
