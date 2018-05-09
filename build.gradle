@@ -30,4 +30,5 @@ dependencies {
 	compile 'org.apache.spark:spark-streaming-kafka-0-10_2.11:2.3.0'
     compile 'org.apache.spark:spark-streaming_2.11:2.2.0'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile 'info.batey.kafka:kafka-unit:1.0'
 }
